@@ -1,0 +1,7 @@
+
+target/
+dbt_modules/
+logs/
+gcp_dbt_sa.json
+gcs_sa_dbt.json
+encoded_gcs_sa.json

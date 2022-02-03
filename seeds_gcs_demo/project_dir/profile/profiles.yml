@@ -1,0 +1,12 @@
+my-bigquery-db:
+
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: nr-dbt-project-demo
+      dataset: dbt_demo_dataset
+      threads: 4
+      keyfile: /project_dir/gcp_dbt_sa.json
+
+  target: dev

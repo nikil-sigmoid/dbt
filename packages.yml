@@ -1,0 +1,3 @@
+packages:
+  - git: "https://github.com/nikil-sigmoid/dbt-currency.git"
+    revision: "main"
