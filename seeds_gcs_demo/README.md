@@ -6,6 +6,7 @@ This project demonstrates uploading csv files to BigQuery from GCS bucket using 
 
 Go to your project directory in terminal
 Encode your service account key using base64 and store it in key-value pair.
+gcs_sa_dbt.json is service account key.
 
 ```bash
 echo "{\"key\":\"`base64 gcs_sa_dbt.json`\"}" > encoded_gcs_sa.json
