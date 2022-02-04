@@ -1,5 +1,5 @@
 
-# DBT very basic project
+# DBT starter project
 
 This is a starter project to get started with any project.
 
