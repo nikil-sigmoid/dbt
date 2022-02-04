@@ -23,4 +23,6 @@ COPY . ./
 
 WORKDIR /project_dir
 
+RUN chmod +x ./run_dbt_seed.sh
+
 ENTRYPOINT ["bash", "./run_dbt_seed.sh"]
